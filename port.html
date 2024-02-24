@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="port.css">
+</head>
+<body>
+    <header>
+        <h1>CHIRAG TRIBHUVAN MAHAKAL</h1>
+        <p>Hello! I'am Chirag Mahakal, a passionate student with a focus on web development and user experience desing.<br>
+            I will hold a Bachelor's degree in Information Technology from Mumbai University.<br>
+            Where I developed a strong foundation in programming languages such as javascript, python, and HTML/CSS.
+        </p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#education">EDUCATION</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+        </ul>
+    </nav>
+
+    <section id="projects">
+        <h2>PROJECTS</h2>
+        <div class="project">
+            <img src="artgallery.png" alt="Project 1">
+            <p>The Online Art Gallery project aims to create a digital platform where artists can showcase their artworks and connect with art enthusiasts and potential buyers online. The platform provides a user-friendly interface for browsing, discovering, and purchasing artworks across various genres, styles, and mediums.
+            </p>
+        </div>
+        <div class="project">
+            <img src="cal.png" alt="Project 2">
+            <p>The Simple Calculator project aims to create a basic yet functional calculator application that performs arithmetic operations such as addition, subtraction, multiplication, and division. This project serves as a fundamental exercise in building a user interface for performing mathematical calculations.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <section id="education">
+        <h2>EDUCATION</h2>
+        <p>Bachelor of science in <b>INFORMATION TECHNOLOGY.</b><br>Mumbai University,Shailendra Degree College.<br> 12th science pass by 86%<br>10th pass by 78%</p>
+    </section>
+
+    <section id="skills">
+        <h2>SKILLS</h2>
+        <p><b>Technical Skill:</b><br>
+            programming languages:python,java.<br>
+            Web development: HTML and css
+            Database Management:MySQL<br>
+            Version Control:GutHub<br>
+            Operating System:macos,window.
+        </p>
+    </section>
+
+    <section id="contact">
+        <h2>CONTACT</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
